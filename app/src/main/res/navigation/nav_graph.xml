@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.lunchtray.StartFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_startFragment_to_mainOrder"
+            app:destination="@id/mainOrder" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainOrder"
+        android:name="com.example.lunchtray.MainOrder"
+        android:label="@string/chooseMain"
+        tools:layout="@layout/fragment_main_order">
+
+        <action
+            android:id="@+id/action_mainOrder_to_sideOrder"
+            app:destination="@id/sideOrder" />
+        <action
+            android:id="@+id/action_mainOrder_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/sideOrder"
+        android:name="com.example.lunchtray.SideOrder"
+        android:label="@string/chooseSide"
+        tools:layout="@layout/fragment_side_order">
+        <action
+            android:id="@+id/action_sideOrder_to_accompanimentOrder"
+            app:destination="@id/accompanimentOrder" />
+        <action
+            android:id="@+id/action_sideOrder_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/accompanimentOrder"
+        android:name="com.example.lunchtray.AccompanimentOrder"
+        android:label="@string/chooseAccomp"
+        tools:layout="@layout/fragment_accompaniment_order">
+        <action
+            android:id="@+id/action_accompanimentOrder_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_accompanimentOrder_to_orderSummary"
+            app:destination="@id/orderSummary" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderSummary"
+        android:name="com.example.lunchtray.OrderSummary"
+        android:label="@string/order_summary">
+        <action
+            android:id="@+id/action_orderSummary_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+</navigation>

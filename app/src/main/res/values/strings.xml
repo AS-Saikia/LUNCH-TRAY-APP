@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Lunch Tray</string>
+    <string name="tile_start_order">Order</string>
+    <string name="title_coupons">Coupons</string>
+    <string name="title_entree_menu">Entrees</string>
+    <string name="title_side_menu">Sides</string>
+    <string name="title_accompaniment_menu">Accompaniments</string>
+    <string name="title_checkout">Checkout</string>
+    <string name="start_order">Start Order</string>
+    <string name="subtotal">Subtotal: %s</string>
+    <string name="tax">Tax: %s</string>
+    <string name="total">Total: %s</string>
+    <string name="next">Next</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="submit">Submit Order</string>
+    <string name="submit_order">Order Submitted!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_order">New Lunch Order</string>
+    <string name="order_details">Entree: %1$s \nSide: %2$s \nAccompaniment: %3$s \nTotal: %4$s \n\n Thank you!</string>
+    <string name= "chooseMain">Choose Entree</string>
+    <string name= "chooseSide">Choose Side Dish</string>
+    <string name= "chooseAccomp">Choose Accompaniment</string>
+    <string name= "summary">Order Summary</string>
+
+
+
+    <string name="MainDish">Mushroom Smothered Chicken</string>
+    <string name="MainDishDes">chicken breast smothered in a mushroom gravy</string>
+    <string name="MainDishPrice">250</string>
+    <string name="MainDish2">Red Drum Pontchartrain</string>
+    <string name="MainDishDes2">lackened and topped with a creamy Cajun sauce with scallops and crawfish</string>
+    <string name="MainDishPrice2">250</string>
+    <string name="MainDish3">Chicken Fried Steak</string>
+    <string name="MainDishDes3">hand breaded country fried steak, topped with homemade cream gravy</string>
+    <string name="MainDishPrice3">180</string>
+    <string name="MainDish4">Fried Chicken</string>
+    <string name="MainDishDes4">hand breaded chicken breast, topped with homemade cream gravy </string>
+    <string name="MainDishPrice4">180</string>
+    <string name="MainDish5">Fried Shrimp</string>
+    <string name="MainDishDes5">lightly battered and fried to a golden brown</string>
+    <string name="MainDishPrice5">150</string>
+    <string name="MainDish6">Cajun Shrimp Pasta</string>
+    <string name="MainDishDes6">gulf shrimp served over linguine tossed in a creamy cajun sauce • served with garlic bread</string>
+    <string name="MainDishPrice6">250</string>
+    <string name="MainDish7">Cheese Enchiladas</string>
+    <string name="MainDishDes7">three cheese enchiladas served with rice and beans</string>
+    <string name="MainDishPrice7">120</string>
+
+
+    <string name="SideDish">Cheese Pizza</string>
+    <string name="SideDishDes"></string>
+    <string name="SideDishPrice">100</string>
+    <string name="SideDish2">Supreme Pizza</string>
+    <string name="SideDishDes2">pepperoni, Italian sausage, ham, onions, bell pepper, black olives and mushrooms</string>
+    <string name="SideDishPrice2">150</string>
+    <string name="SideDish3">Meat Wave Pizza</string>
+    <string name="SideDishDes3">pepperoni, Italian sausage, bacon, ham and ground beef</string>
+    <string name="SideDishPrice3">160</string>
+    <string name="SideDish4">Fried Shrimp</string>
+    <string name="SideDishDes4"></string>
+    <string name="SideDishPrice4">100</string>
+    <string name="SideDish5">Fried Oysters</string>
+    <string name="SideDishDes5"></string>
+    <string name="SideDishPrice5">100</string>
+    <string name="SideDish6">Fish or Shrimp Tacos</string>
+    <string name="SideDishDes6">seasoned fish or shrimp served on a soft corn tortilla topped</string>
+    <string name="SideDishPrice6">80</string>
+    <string name="SideDish7">Clubhouse Sandwich</string>
+    <string name="SideDishDes7">lettuce, tomato, bacon, turkey and ham</string>
+    <string name="SideDishPrice7">80</string>
+    <string name="SideDish8">California Chicken Club Sandwich</string>
+    <string name="SideDishDes8">served with swiss cheese, lettuce, tomato, avocado and bacon</string>
+    <string name="SideDishPrice8">100</string>
+
+
+    <string name="AccompDish">Jasmine Rice</string>
+    <string name="AccompDishPrice">80</string>
+    <string name="AccompDish2">Garlic Mashed Potatoes</string>
+    <string name="AccompDishPrice2">80</string>
+    <string name="AccompDish3">Steak Fries</string>
+    <string name="AccompDishPrice3">50</string>
+    <string name="AccompDish4">Macaroni and Cheese</string>
+    <string name="AccompDishPrice4">50</string>
+    <string name="AccompDish5">Onion Rings</string>
+    <string name="AccompDishPrice5">30</string>
+    <string name="AccompDish6">Sweet Corn</string>
+    <string name="AccompDishPrice6">30</string>
+    <string name="AccompDish7">Hamburger</string>
+    <string name="AccompDishPrice7">80</string>
+    <string name="AccompDish8">Grilled Cheese Sandwich</string>
+    <string name="AccompDishPrice8">80</string>
+    <string name="AccompDish9">Chicken Tenders</string>
+    <string name="AccompDishPrice9">100</string>
+
+
+</resources>
